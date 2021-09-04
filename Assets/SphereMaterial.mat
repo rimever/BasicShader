@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: CubeMaterial
-  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+  m_Name: SphereMaterial
+  m_Shader: {fileID: 4800000, guid: 78d6e881070294fc99cdaccf08891ccf, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -63,16 +63,28 @@ Material:
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
-    - _Metallic: 0
+    - _Metallic: 0.829
     - _Mode: 0
     - _OcclusionStrength: 1
+    - _OutlineWidth: 0.01
     - _Parallax: 0.02
+    - _RimPower: 5
+    - _Roughness: 0.508
+    - _Shininess: 20
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
+    - _Albedo: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _DiffuseColor: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _OutlineColor: {r: 0, g: 0, b: 0, a: 1}
+    - _RimColor: {r: 1, g: 0, b: 0.34542608, a: 1}
+    - _RimPower: {r: 1, g: 1, b: 1, a: 1}
+    - _SpecularColor: {r: 0, g: 0.972549, b: 0.4291974, a: 1}
+    - _ToonDarkColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _ToonLightColor: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
